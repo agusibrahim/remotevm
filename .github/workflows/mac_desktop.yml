@@ -7,7 +7,7 @@ defaults:
 
 jobs:
   Instance:
-    runs-on: macos-latest
+    runs-on: macos-11.0
     steps:
     - uses: actions/checkout@v2
     - name: Setting the environment up.
